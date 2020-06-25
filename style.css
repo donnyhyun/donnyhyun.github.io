@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .navbar {
@@ -20,6 +21,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .navbar a:hover {
@@ -40,12 +42,17 @@ body {
 }
 
 #about {
-  padding-top: 24px;
+  padding-top: 32px;
+  margin-top: 8px;
+}
+
+#portfolio {
+  padding-top: 32px;
   margin-top: 8px;
 }
 
 #contact {
-  padding-top: 24px;
+  padding-top: 32px;
   margin-top: 8px;
 }
 
