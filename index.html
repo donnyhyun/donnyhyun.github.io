@@ -3,14 +3,118 @@
 <html>
     <head>
         <title>Don Lee's Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            $(function(){
+                var current = location.pathname.split('#')[1];
+                $('#navbar a').each(function(){
+                    var $this = $(this);
+                    if($this.attr('href').indexOf(current) !== -1){
+                        $this.addClass('active');
+                    }
+                })
+            })
+        </script>
     </head>
-    <ul>
-	  <li><a href="index.html">Home</a></li>
-	  <li><a href="about.html">About</a></li>
-	  <li><a href="contact.html">Contact</a></li>
-	</ul>
     <body>
-        <h1>In progress...</h1>
+        <div id="nav" class="navbar">
+            <a href="#top">Home</a>
+        	<a href="#about">About</a>
+        	<a href="#contact">Contact</a>
+        </div>
+        <div class="main">
+            <div id="intro">
+                <h1>Intro</h1>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div id="about">
+                <h1>About</h1>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div id="contact">
+                <h1>Contact</h1>
+                <a href="https://www.linkedin.com/in/don-lee-58a360103/" class="fa fa-linkedin"></a>
+                <a href="mailto:donnyhyun288@gmail.com" class="fa fa-google"></a>
+                <a href=”https://github.com/donnyhyun” class="fa fa-github"></a>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+        </div>
     </body>
 </html>
